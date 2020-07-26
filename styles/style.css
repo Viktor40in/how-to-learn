@@ -23,7 +23,7 @@ position: relative;
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 40;
+  z-index: 44;
 }
 
 
@@ -34,6 +34,8 @@ position: relative;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
+  position: relative;
+  z-index:40;
 }
 .header__subtitle {
   position: absolute;
@@ -64,7 +66,7 @@ position: relative;
   background-color: #2f80ed;
   top: 64px;
   right: 0px;
-  z-index: 4;
+  z-index: 3;
 }
 
 
@@ -177,7 +179,6 @@ width: 250px;
   position: relative;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
   padding-top: 100px;
 }
 .feynman__title {
@@ -202,12 +203,13 @@ width: 250px;
 .feynman__link {
   position:absolute;
   right: 48px;
-  top : 374px;
+  top : 50%;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
   color: black;
+  z-index: 40;
 }
 .feynman__illustration {
 position: absolute;
