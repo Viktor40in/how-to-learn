@@ -7,6 +7,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #1f1f1f;
 }
 
 .header {
@@ -17,13 +18,12 @@ max-height: 756px;
 background-color: #f2f2f2;
 display: flex;
 position: relative;
-margin-bottom: 100px;
 }
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 4;
+  z-index: 40;
 }
 
 
@@ -37,7 +37,7 @@ margin-bottom: 100px;
 }
 .header__subtitle {
   position: absolute;
-  z-index: 3;
+  z-index: 40;
   width: 388px;
   left: 64px;
   bottom: 30px;
@@ -53,7 +53,7 @@ margin-bottom: 100px;
   position:absolute;
   bottom: 0px;
   right: 0px;
-  z-index: 2;
+  z-index: 4;
   height: 608px;
   width:765px;
 }
@@ -64,14 +64,16 @@ margin-bottom: 100px;
   background-color: #2f80ed;
   top: 64px;
   right: 0px;
+  z-index: 4;
 }
 
 
 .description{
-  margin-top: 0;
-  margin-bottom:100px;
+  padding:100px 0;
   display:flex;
   justify-content: center;
+  background-color: white;
+  box-sizing: border-box;
 }
 .two-columns{
 display:flex;
@@ -110,11 +112,13 @@ font-weight: bold;
 
 
 .digits {
-  margin-top: 0;
+  padding: 0 0 100px;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  background-color: white;
+  box-sizing: border-box;
 }
 .section-title {
   width: 60%;
@@ -168,12 +172,13 @@ width: 250px;
 
 .feynman{
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  margin: 100px 0 0;
   height: 790px;
   background-color: #f2f2f2;
   position: relative;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 100px;
 }
 .feynman__title {
   text-align: center;
@@ -183,10 +188,8 @@ width: 250px;
   font-weight: bold;
   z-index:3;
   width: 648px;
-  padding: 100px 0 0;
   margin: 0 0 70px;
 }
-
 .feynman__subtitle {
   text-align: center;
   z-index: 3;
@@ -292,11 +295,12 @@ text-align: left;
 
 
 .footer {
-  padding: 60px 50px 40px;
+  padding: 60px 0 40px;
   min-height: 350px;
   box-sizing: border-box;
   background-color: #1f1f1f;
-  margin: 0;
+  margin: 0 auto;
+  width: 90%;
 }
 .footer__column_content_copyright {
   display: flex;
