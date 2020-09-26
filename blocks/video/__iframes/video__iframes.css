@@ -1,0 +1,7 @@
+.video__iframes{
+  margin: auto;
+}
+
+.video__iframe + .video__iframe {
+  margin-left: 20px;
+}

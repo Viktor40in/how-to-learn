@@ -1,0 +1,13 @@
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.table__cell_theme_dark:nth-of-type(n+1){
+  margin-top: 0;
+}
+.table__cell_theme_dark:nth-of-type(n+6){
+  margin-top: 80px;
+}
